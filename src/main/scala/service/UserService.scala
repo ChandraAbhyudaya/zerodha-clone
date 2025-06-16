@@ -1,4 +1,4 @@
-package user
+package service
 
 import java.time.Instant
 import java.util.UUID

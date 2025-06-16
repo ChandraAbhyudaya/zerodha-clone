@@ -1,9 +1,10 @@
-package market
+package service
+
+import akka.NotUsed
+import akka.stream.scaladsl.Source
 
 import java.time.Instant
 import scala.concurrent.Future
-import akka.NotUsed
-import akka.stream.scaladsl.Source
 
 case class Stock(symbol : String, exchange : String, lastPrice : BigDecimal, timestamp : Instant)
 
